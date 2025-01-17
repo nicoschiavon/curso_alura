@@ -38,5 +38,5 @@ nombre = prompt('Ingrese su nombre:');
 edad = prompt('Ingrese su edad:');
 
 if (edad >= 18) {
-    alert('¡Puedes obetener tu licencia de conducir!')
+    alert('¡Puedes obetener tu licencia de conducir!');
 }
