@@ -36,3 +36,9 @@ function radioCirculo(radio) {
 areaCirculo(20);
 radioCirculo(20);
 // Crea una función que muestre en pantalla la tabla de multiplicar de un número dado como parámetro.
+function tablaMultiplicar(numero) {
+    for (i = 1; i <= 10; i ++) {
+        console.log(`${numero} x ${i} = ${numero * i}`);
+    }
+}
+tablaMultiplicar(5)
