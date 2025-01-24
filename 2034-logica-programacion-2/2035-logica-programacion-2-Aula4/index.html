@@ -21,17 +21,15 @@
                     <h1></h1>
                     <p class="texto__parrafo" id="p__seleccion"></p>
                 </div>
-                <!-- Seleccion de cantidad de intentos -->
+                <!-- Seleccion de cantidad de intentos máximos -->
                 <div class="seleccion_juego" id="menu__seleccion__juego">
-                    <label for="intentos" class="texto__label" id="intentos"></label>
+                    <label for="intentos__maximos" class="texto__label" id="intentos"></label>
                     <select name="intentos" id="intentos__select" class="select__intentos">
                         <option value="1">Imposible 1 intento</option>
                         <option value="3">Dificil 3 intentos</option>
                         <option value="5">Medio 5 intentos</option>
                         <option value="10">Fácil 10 intentos</option>
                     </select>
-                    <label for="intentos" class="texto__label" id="intentos__extra"></label>
-                    <input type="number" id="valorIntentos" class="container__input__intentos">
                     <button onclick="agregarIntentos();" class="container__boton">Aceptar</button>
                 </div>
                 <!-- Seleccion de cantidad de numeros sorteados -->
@@ -43,7 +41,7 @@
                     <p class="texto__parrafo" id="info__juego"></p>
                     <input type="number" id="valorUsuario" min="1" max="10" class="container__input">
                     <div class="chute container__botones">
-                        <button onclick="verificarIntento();" class="container__boton">Intentar</button>
+                        <button onclick="verificarIntento();" class="container__boton" id="jugar">Intentar</button>
                         <button onclick="reiniciarJuego();" class="container__boton" id="reiniciar" disabled>Nuevo juego</button>
                     </div>
                 </div>
