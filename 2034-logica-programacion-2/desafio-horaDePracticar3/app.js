@@ -68,7 +68,7 @@ console.log(findElemnt(numeros, 5));
 function sumarListas(lista1, lista2) {
     let lista3 = [];
     for (i = 0; i < lista1.length; i++) {
-        lista3 =  lista1[i] + lista2[2];
+        lista3.push(lista1[i] + lista2[2]);
     }
     return lista3;
 }
@@ -76,3 +76,11 @@ lista1 = [2, 4, 1, 8];
 lista2 = [3, 5, 9, 4];
 console.log(sumarListas(lista1, lista2));
 // Crea una función que reciba una lista de números y devuelva una nueva lista con el cuadrado de cada número.
+function cuadradoNumeros(numeros) {
+    let listaCuadrados = [];
+    for (i = 0; i < numeros.length; i++) {
+        listaCuadrados.push(Math.pow(numeros[i], 2));
+    }
+    return listaCuadrados;
+}
+console.log(`La lista de cuadrados es: ${cuadradoNumeros(numeros)}`);
