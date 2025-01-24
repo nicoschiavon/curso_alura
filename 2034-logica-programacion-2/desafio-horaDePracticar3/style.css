@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 6rem;
+    padding-bottom: 3rem;
+}
+.container {
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.container__contenido {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    text-align: center;
+}
+
+.container__informaciones {
+    flex: 1;
+    padding: 3rem;
+}
+
+h3 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 3rem;
+    padding-bottom: 3rem; 
+}
